@@ -17,6 +17,7 @@ while run:
         client.send(data.encode('UTF-8'))  # send
         msg = client.recv(1024)
         print(msg.decode('UTF-8'))
+
     except ConnectionResetError:
         print('Client Lost. Connecting...')
         client, addr = server.accept()
