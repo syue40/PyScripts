@@ -1,7 +1,5 @@
 # HackLog
-A collection of programs I'm working on in Python.
-
-This is an ongoing project I'm using to learn about how python programs can be written to attack other computers.
+A notebook of scripts I'm used to learn about python scripting for cybersecurity.
 
 # To Do:
 - add email capability to Keylogger. This would send an email from host computer to any email address using SMTP.
